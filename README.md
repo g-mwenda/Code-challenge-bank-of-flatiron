@@ -16,15 +16,15 @@ D. Authors Info
 
 ### Description:
 
-    ##### The Project is a website for displaying Transactions:
+    The Project is a website for displaying Transactions:
 
-    ##### The user should be able to:
+    The user should be able to:
 
         1. See a table of the transactions.
         2. Fill out and submit the form to add a new transaction.
         3. Filter transactions by typing into the search bar.
 
-    ##### To Run the website:
+    To Run the website:
         1. Enter npm install in the terminal.
         2. Run (npm run json) for the server.
         3. Then run (npm start) on a seperate terminal to run the website.
