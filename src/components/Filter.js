@@ -1,17 +1,15 @@
-// import React from "react";
+import React from "react";
+import { FaSearch } from 'react-icons/fa';
 
-// function Filter({searching}){
-//     const[search,setSearch]=useState("")
+function Filter({searching}){
 
-//     function handleChange(e){
-//         e.preventDefault()
-//         setSearch(e.target.value)
-//         searching(search)
-//     }
 
-//     return (
+    return (
+        <form className="searchfor">
+            <input type="text" className="search-input" onChange={searching} placeholder="Search for Transactions here"></input>
+            <i>< FaSearch/></i>
+        </form>
+    )
+}
 
-//     )
-// }
-
-// export default Filter
+export default Filter

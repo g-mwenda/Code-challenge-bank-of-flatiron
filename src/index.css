@@ -21,6 +21,8 @@ body {
 }
 
 .header-container{
+  margin-left: 6px;
+  margin-right: 6px;
   background-color: blue;
   color: white;
   border-radius: 10px;
@@ -46,4 +48,67 @@ th{
 }
 td{
   padding: 3px;
+}
+
+.searchfor{
+  display: flex;
+  width: 90%;
+  border: 1px solid black;
+  margin: 5px 40px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 4px;
+  justify-content: space-between;
+}
+
+.search-input{
+  text-align: left;
+  flex: 1;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 80%;
+}
+.searchfor i{
+background: transparent;
+border: none;
+outline: none;
+font-size: 26px;
+cursor: pointer;
+}
+.form-inputs{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#new-item{
+  height: 70px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#new-item input{
+  height: 25px;
+  font-size: 16px;
+}
+#new-item button{
+  height: 25px;
+  margin-top: 8px;
+  border-radius: 0;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: blue;
+  color: white;
+  border-radius: 0;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
 }
