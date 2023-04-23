@@ -38,7 +38,7 @@ D. Authors Info
 
 ### Licence
 
-[MIT License]
+[MIT License](https://github.com/ewambua/Code-Challenge-Bank-of-Flatiron/blob/main/Licence)
 
 
 ### Authors Info
