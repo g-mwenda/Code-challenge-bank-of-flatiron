@@ -111,6 +111,20 @@
       "category": "Transportation",
       "amount": "10",
       "id": 16
+    },
+    {
+      "date": "",
+      "description": "deposit",
+      "category": "income",
+      "amount": "100",
+      "id": 17
+    },
+    {
+      "date": "2023-04-24",
+      "description": "Shopping at the Mall",
+      "category": "Fashion",
+      "amount": "300",
+      "id": 18
     }
   ]
 }
