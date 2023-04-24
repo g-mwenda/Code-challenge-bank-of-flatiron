@@ -19,6 +19,7 @@
        3.Search transactions by name by typing into the search bar.
        
    To run the website:
+       
        1. Enter npm install in the terminal.
        2. Enter npm run json to run the server.
        3. Enter npm start on a new terminal to start the website.
